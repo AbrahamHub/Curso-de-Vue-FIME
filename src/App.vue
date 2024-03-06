@@ -6,6 +6,7 @@ import AboutUsPage from "./pages/AboutUsPage.vue";
 import ExplorePage from "./pages/ExplorePage.vue";
 import { auth } from "@/firebase.js";
 import { onAuthStateChanged } from "firebase/auth";
+import './assets/base.css'
 
 const user = ref(null);
 const isLoginShown = computed(() => user.value === null);
